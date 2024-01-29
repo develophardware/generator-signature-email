@@ -27,7 +27,7 @@ def main():
     st.image(imagem_url, caption='NOVA DISTRIBUIDORA DE VEÍCULOS LTDA', use_column_width=True)
 
     # Solicitar informações do usuário
-    nome = st.text_input("Digite seu nome:")
+    nome = st.text_input("Digite seu nomee:")
     cargo = st.text_input("Digite seu cargo:")
     empresa = st.selectbox(
     'Escolha a filial:',
